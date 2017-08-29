@@ -17,7 +17,7 @@
     foreach ($str as $char){
         if (preg_match('/[A-Z]/i', $char)){
             $key = array_search(strtolower($char),$alf);
-            if (isset($_POST['cezar'])){
+            if (isset($_POST['caesar'])){
                 getKeyOfEncryptSymbol(); 
             }
             else getKeyOfDecryptSymbol();
